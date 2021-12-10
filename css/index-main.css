@@ -1,0 +1,150 @@
+main {
+    width: 100%;
+    height: auto;
+    background-color: #1A1A1A;
+}
+
+.main-carousel {
+    width: 100%;
+}
+
+.slideshow-image-container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+
+.slideshow-image-container img {
+    width: 100%;
+    pointer-events: none;
+
+    /* animation */
+    animation: fadeIn 8s;
+    -webkit-animation: fadeIn 8s;
+    -moz-animation: fadeIn 58s;
+    -o-animation: fadeIn 8s;
+    -ms-animation: fadeIn 8s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+
+.shop-now-button {
+    width: 3.5%;
+    padding: 1rem 4rem 1rem 4rem;
+    border: 2px solid white;
+    color: white;
+    position: absolute;
+    bottom: 5rem;
+    right: 5rem;
+    background: linear-gradient(to left, #000 50%, #fff 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: all .7s ease-out;
+}
+
+.shop-now-button:hover {
+    background-position: bottom left;
+    color: black;
+}
+
+/* responsive */
+@media only screen and (max-width: 1800px) {
+    .shop-now-button {
+        width: 5%;
+        bottom: 3rem;
+        right: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .shop-now-button {
+        width: 5.5%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .shop-now-button {
+        width: 6%;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .slideshow-image-container img {
+        width: 150%;
+        height: 700px;
+    }
+
+    .shop-now-button {
+        width: 7%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .shop-now-button {
+        width: 8%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .slideshow-image-container img {
+        width: 150%;
+        height: 700px;
+    }
+    .shop-now-button {
+        width: 9%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .shop-now-button {
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .shop-now-button {
+        width: 11%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .shop-now-button {
+        width: 12%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .shop-now-button {
+        width: 13%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .shop-now-button {
+        width: 14%;
+    }
+}
